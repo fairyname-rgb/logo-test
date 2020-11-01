@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Aharoni';
+    color: #261F0F;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+}
+.bottom-text{
+    display: flex;
+    align-items: center
+}
+.small-text{
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 0px;
+}
+.blue-text{
+    color: #00ADFF;
+}
+
+.logo-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 16px solid rgb(38, 35, 35);
+    border-top-color: transparent;
+    transform: rotate(90deg);
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+ .logo-triangle {
+      height: 50px;
+      position: relative;
+      transform:rotate(35deg);
+    }
+    
+    .logo-background {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+    } 
+    
+    .pie {
+      transition: all 1s;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      clip: rect(0px, 25px, 50px, 0px);
+    }
+    
+    .hold {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      clip: rect(0px, 25px, 50px, 0px);
+    }
+    
+    #pieSlice1 .pie {
+      background-color: #00ADFF;
+      transform:rotate(110deg);
+    }
